@@ -4,6 +4,17 @@ Public Class Form1
     Dim WithEvents Timer As New Timer(5000)
     Dim blockScreen = 0
     Dim PCname = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\iFocus", "Name", Nothing)
+
+    Private Declare Function GetForegroundWindow Lib "user32" Alias "GetForegroundWindow" () As IntPtr
+    Private Declare Auto Function GetWindowText Lib "user32" (ByVal hWnd As System.IntPtr, ByVal lpString As System.Text.StringBuilder, ByVal cch As Integer) As Integer
+    Private makel As String
+
+    Private Function GetCaption() As String
+        Dim Caption As New System.Text.StringBuilder(256)
+        Dim hWnd As IntPtr = GetForegroundWindow()
+        GetWindowText(hWnd, Caption, Caption.Capacity)
+        Return Caption.ToString()
+    End Function
     Sub tampilData()
         PCname = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\iFocus", "Name", Nothing)
 
@@ -23,6 +34,7 @@ Public Class Form1
         blockScreen = dt.Rows(0).Item(1)
         System.Console.WriteLine(blockScreen)
         System.Console.WriteLine(PCname)
+        System.Console.WriteLine(GetCaption())
         If Me.InvokeRequired Then
             Me.BeginInvoke(New Action(
                            Sub()
