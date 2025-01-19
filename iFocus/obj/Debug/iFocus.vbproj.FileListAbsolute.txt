@@ -1,0 +1,15 @@
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\iFocus.exe.config
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\iFocus.exe
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\iFocus.pdb
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\iFocus.xml
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\MySql.Data.dll
+D:\Garapan\VB\iFocus\iFocus\bin\Debug\MySql.Data.xml
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.vbproj.AssemblyReference.cache
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.Form1.resources
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.Resources.resources
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.vbproj.GenerateResource.cache
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.vbproj.CoreCompileInputs.cache
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.vbproj.CopyComplete
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.exe
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.xml
+D:\Garapan\VB\iFocus\iFocus\obj\Debug\iFocus.pdb
